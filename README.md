@@ -20,8 +20,6 @@ The real-data analysis expects preprocessed user-level matrices withthe followin
 The simulation workflow consists of three steps:
 
 ```text
-generate.r
-    ↓
 simul_train.r
     ↓
 simul_test.r
@@ -34,8 +32,6 @@ Run all commands from the root directory of the repository.
 The real-data workflow consists of two main steps:
 
 ```text
-generate.r
-     ↓
 real_train.r
      ↓
 real_test.r
