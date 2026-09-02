@@ -15,3 +15,33 @@ The real-data analysis expects preprocessed user-level matrices withthe followin
 - columns = posts,
 - entries = label counts across images within each post.
 
+## Reproducibility
+### Simulation
+The simulation workflow consists of three steps:
+
+```text
+generate.r
+    ↓
+simul_train.r
+    ↓
+simul_test.r
+```
+
+Run all commands from the root directory of the repository.
+
+## Directory and codes
+
+```
+.
++-- real
+|        +-- plot_recon_real.png
++-- simul
+|        +-- plot_recon_simul.png
++-- README.md
++-- generate.r
++-- real_test.r
++-- real_train.r
++-- simul_test.r
++-- simul_train.r
++-- util.r
+```
