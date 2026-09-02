@@ -29,6 +29,20 @@ simul_test.r
 
 Run all commands from the root directory of the repository.
 
+### Real-Data Analysis
+
+The real-data workflow consists of two main steps:
+
+```text
+generate.r
+     ↓
+real_train.r
+     ↓
+real_test.r
+```
+
+Run the scripts from the root directory of the repository.
+
 ## Directory and codes
 
 ```
@@ -45,3 +59,6 @@ Run all commands from the root directory of the repository.
 +-- simul_train.r
 +-- util.r
 ```
+
+## Acknowledgement
+This repository was developed with support from the 서울시립대학교 데이터 사이언스 플러스 차세대 융합인재 양성사업단 - http://dsplus.uos.ac.kr/
