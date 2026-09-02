@@ -1,9 +1,9 @@
-## perNMF
+## Nonnegative Matrix Factorization with Shared and Individual-Specific Components
 > **Work in progress**
 
-This repository contains the R implementation and reproducibility code for **Personalized Nonnegative Matrix Factorization (perNMF)**.
+This repository contains the R implementation and reproducibility code for **Nonnegative Matrix Factorization with Shared and Individual-Specific Components**.
 
-**perNMF** is designed for nonnegative data collected from multiple individuals or sources, where both shared and source-specific latent structures may be present.
+This method is designed for nonnegative data collected from multiple individuals or sources, where both shared and source-specific latent structures may be present.
 
 ## Data
 
